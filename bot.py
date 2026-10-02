@@ -7,9 +7,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 logging.basicConfig(level=logging.INFO)
 
 # Configuration (Tu dikarî li ser Railway an .env van daneyan veşêrî)
-API_ID = int(os.getenv("API_ID", "123456"))  # API ID ya xwe li vir binivîse
-API_HASH = os.getenv("API_HASH", "your_api_hash")  # API Hash ya xwe li vir binivîse
-BOT_TOKEN = os.getenv("BOT_TOKEN", "your_bot_token")  # Tokena Botê ya ji BotFather
+API_ID = int(os.getenv("API_ID", "34584240"))  # API ID ya xwe li vir binivîse
+API_HASH = os.getenv("API_HASH", "eba4f8333cba5f9697a1d20779d4d6e9")  # API Hash ya xwe li vir binivîse
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8887162311:AAEBNX4ewNX-__HI-659aiyLffnJHliV_qc")  # Tokena Botê ya ji BotFather
 
 app = Client("spoof_call_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
